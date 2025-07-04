@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle", "Wordle\Wordle.csproj", "{9743CED8-863D-46F5-98C2-13A345C6419E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle.Lib", "Wordle.Lib\Wordle.Lib.csproj", "{25C62D0F-E833-49B4-A04F-78787891507D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle.Test", "Wordle.Test\Wordle.Test.csproj", "{DC84BAA5-9657-4178-B539-4669ADEAAAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9743CED8-863D-46F5-98C2-13A345C6419E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9743CED8-863D-46F5-98C2-13A345C6419E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9743CED8-863D-46F5-98C2-13A345C6419E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9743CED8-863D-46F5-98C2-13A345C6419E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C62D0F-E833-49B4-A04F-78787891507D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C62D0F-E833-49B4-A04F-78787891507D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C62D0F-E833-49B4-A04F-78787891507D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C62D0F-E833-49B4-A04F-78787891507D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC84BAA5-9657-4178-B539-4669ADEAAAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC84BAA5-9657-4178-B539-4669ADEAAAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC84BAA5-9657-4178-B539-4669ADEAAAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC84BAA5-9657-4178-B539-4669ADEAAAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50D7A9C6-745C-4953-B561-A7246D3C394E}
+	EndGlobalSection
+EndGlobal
